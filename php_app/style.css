@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9; margin: 0; padding: 0; color: #333;
+}
+.navbar {
+    background-color: #2c3e50; color: white; padding: 15px 20px;
+    display: flex; justify-content: space-between; align-items: center;
+}
+.logo { font-size: 1.5em; font-weight: bold; }
+.nav-links a, .nav-links .balance-display {
+    color: white; text-decoration: none; margin-left: 15px; display: inline-block;
+}
+.nav-links .btn-game { background: #e74c3c; padding: 5px 15px; border-radius: 5px; font-weight: bold; }
+.container {
+    max-width: 900px; margin: 20px auto; padding: 20px;
+    background: white; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+h2 { color: #2c3e50; }
+.auth-container {
+    max-width: 400px; margin: 50px auto; background: white; padding: 20px;
+    border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); text-align: center;
+}
+.form-group { margin-bottom: 15px; text-align: left; }
+.form-group label { display: block; margin-bottom: 5px; font-weight: bold; }
+.form-group input { width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+.btn {
+    background: #3498db; color: white; padding: 10px 15px; border: none;
+    border-radius: 4px; cursor: pointer; width: 100%; font-size: 1em;
+}
+.btn:hover { background: #2980b9; }
+.alert { padding: 10px; margin-bottom: 15px; border-radius: 4px; text-align: left; }
+.error { background: #f8d7da; color: #721c24; }
+.success { background: #d4edda; color: #155724; }
+.wallet-card { background: #ecf0f1; padding: 20px; border-radius: 8px; text-align: center; margin-bottom: 20px; }
+.balance { font-size: 2em; font-weight: bold; color: #27ae60; }
+.admin-stats { display: flex; gap: 20px; justify-content: space-between; }
+.admin-stats .wallet-card { flex: 1; }
+.data-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+.data-table th, .data-table td { padding: 12px; border-bottom: 1px solid #ddd; text-align: left; }
+.data-table th { background: #f8f9fa; }
+.mt-2 { margin-top: 20px; }
+.status-pending { color: #f39c12; font-weight: bold; }
+.status-completed, .status-approved { color: #27ae60; font-weight: bold; }
+.status-rejected { color: #c0392b; font-weight: bold; }
+.action-form { max-width: 400px; margin: 0 auto; }
+.deposit-info { background: #e1f5fe; padding: 15px; border-radius: 8px; margin-bottom: 20px; text-align: center; }
+.action-btn { padding: 5px 10px; border: none; border-radius: 4px; cursor: pointer; color: white; }
+.btn-approve { background: #27ae60; }
+.btn-reject { background: #e74c3c; }
