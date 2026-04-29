@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS aviator_platform;
-USE aviator_platform;
+CREATE DATABASE IF NOT EXISTS Jalwa_369;
+USE Jalwa_369;
 
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,

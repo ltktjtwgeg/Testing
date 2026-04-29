@@ -2,8 +2,8 @@
 session_start();
 
 $host = 'localhost';
-$db_name = 'aviator_platform';
-$username = 'root';
+$db_name = 'Jalwa_369';
+$username = 'Jalwa_369';
 $password = ''; // Change as per Hostinger
 
 try {

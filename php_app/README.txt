@@ -4,8 +4,8 @@
 2. Go to "Databases" and create a new MySQL Database. Note down the Database Name, Username, and Password.
 3. Open `config.php` and update it with these details:
    $host = 'localhost'; // Usually localhost on Hostinger
-   $db_name = 'your_db_name';
-   $username = 'your_db_user';
+   $db_name = 'Jalwa_369';
+   $username = 'Jalwa_369';
    $password = 'your_db_password';
 4. Go to PHPMyAdmin in Hostinger. Select your newly created database.
 5. Click on the "Import" tab and upload `database.sql` provided in this folder. Execute it.

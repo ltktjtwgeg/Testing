@@ -120,8 +120,8 @@ export default function App() {
                 <li>Update the credentials with your Hostinger database details:
                   <pre className="bg-gray-800 text-green-400 p-3 rounded mt-2 text-sm">
 $host = 'localhost';
-$db_name = 'your_database_name';
-$username = 'your_database_user';
+$db_name = 'Jalwa_369';
+$username = 'Jalwa_369';
 $password = 'your_database_password';
                   </pre>
                 </li>
