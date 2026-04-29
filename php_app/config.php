@@ -2,8 +2,8 @@
 session_start();
 
 $host = 'localhost';
-$db_name = 'Jalwa_369';
-$username = 'Jalwa_369';
+$db_name = 'u918090917_Jalwa_369';
+$username = 'u918090917_Jalwa_369';
 $password = ''; // Change as per Hostinger
 
 try {
